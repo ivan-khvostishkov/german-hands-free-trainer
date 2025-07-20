@@ -4,7 +4,7 @@ German Hands-free Trainer is the tool that narrates phrases from German A1-A2 an
 
 It works by downloading the "Wortliste" PDF with German words and sample phrases from the Goethe Insitut website, parsing it with [Amazon Textract](https://aws.amazon.com/textract/), extracting and translating the phrases from German into English by [Amazon Translate](https://aws.amazon.com/translate/) and narrating the phrases with [Amazon Polly](https://aws.amazon.com/polly/). Finally, it assembles the audio files into a video file and hardcodes subtitles with [FFMpeg](https://www.ffmpeg.org/) using the speech marks that Polly produces during speech-to-text conversion. The resulting videos I've published on YouTube on my channel.
 
-For convenience and for regular training, use the BookTube app that has the language learning feature to jump to a random position of the YouTube video and loop it indefinitely:
+For convenience and for regular training, use the [BookTube](https://github.com/ivan-khvostishkov/booktube) app that has the language learning feature to jump to a random position of the YouTube video and loop it indefinitely:
 
 * German A1: https://booktube.nosocial.net/?v=tSCrnPUt-pU&sleep=20&loop=true&pos=random&edit=true
 * German A2: https://booktube.nosocial.net/?v=esvhhEGLTNA&sleep=20&loop=true&pos=random&edit=true
