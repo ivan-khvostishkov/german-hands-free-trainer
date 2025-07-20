@@ -10,6 +10,6 @@ For convenience and for regular training, use the [BookTube](https://github.com/
 * German A2: https://booktube.nosocial.net/?v=esvhhEGLTNA&sleep=20&loop=true&pos=random&edit=true
 * German B1: TBD
 
-I recommend that you open the app and play the video in the Firefox browser on your mobile device and listen to it carefully through headphones from the locked screen while walking outside, breathing the fresh air.
+I recommend that you open the app and play the video on your mobile device in the Edge or Firefox browser and listen to it carefully through headphones from the locked screen while walking outside, breathing the fresh air.
 
 _Note: Parts of the code of this project were generated with [Amazon Q Developer](https://aws.amazon.com/q/developer/)._
