@@ -15,5 +15,9 @@
     <orderEntry type="library" name="amazonaws.aws.java.sdk.polly" level="project" />
     <orderEntry type="library" name="amazonaws.aws.java.sdk.translate" level="project" />
     <orderEntry type="library" name="json" level="project" />
+    <orderEntry type="library" name="software.amazon.awssdk.s3" level="project" />
+    <orderEntry type="library" name="software.amazon.awssdk.sso" level="project" />
+    <orderEntry type="library" name="software.amazon.awssdk.ssooidc" level="project" />
+    <orderEntry type="library" name="slf4j.simple" level="project" />
   </component>
 </module>

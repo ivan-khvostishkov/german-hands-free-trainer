@@ -1,0 +1,52 @@
+<component name="libraryTable">
+  <library name="software.amazon.awssdk.sso" type="repository">
+    <properties maven-id="software.amazon.awssdk:sso:2.29.15" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/sso-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/protocol-core-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aws-json-protocol-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/third-party-jackson-core-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-utils-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/profiles-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/http-auth-aws-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/checksums-spi-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/checksums-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sdk-core-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/retries-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.36.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/reactive-streams-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/auth-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/http-auth-aws-eventstream-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eventstream-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/http-auth-spi-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/http-auth-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/identity-spi-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/http-client-spi-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/regions-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/annotations-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/utils-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aws-core-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/metrics-spi-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/endpoints-spi-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/retries-spi-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/apache-client-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/httpclient-4.5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/httpcore-4.4.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-codec-1.17.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-nio-client-2.29.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-codec-http-4.1.115.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-codec-http2-4.1.115.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-codec-4.1.115.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-transport-4.1.115.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-common-4.1.115.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-buffer-4.1.115.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-handler-4.1.115.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-transport-native-unix-common-4.1.115.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-transport-classes-epoll-4.1.115.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-resolver-4.1.115.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
