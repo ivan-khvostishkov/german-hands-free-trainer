@@ -19,5 +19,6 @@
     <orderEntry type="library" name="software.amazon.awssdk.sso" level="project" />
     <orderEntry type="library" name="software.amazon.awssdk.ssooidc" level="project" />
     <orderEntry type="library" name="slf4j.simple" level="project" />
+    <orderEntry type="library" name="software.amazon.awssdk.textract" level="project" />
   </component>
 </module>

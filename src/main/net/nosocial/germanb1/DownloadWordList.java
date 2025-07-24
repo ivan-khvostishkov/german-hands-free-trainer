@@ -26,7 +26,7 @@ public class DownloadWordList {
     public static final String FILE_URL = "https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_B1_Wortliste.pdf";
 
     public static void main(String[] args) throws IOException, URISyntaxException {
-        System.out.println("German B1 Hands-Free Trainer Tool (c) 2013-2025 by NoSocial.Net");
+        System.out.println("German B1 Hands-Free Trainer (c) 2013-2025 by NoSocial.Net");
 
         try (S3Client s3Client = S3Client.builder()
                 .region(Region.EU_WEST_1)
