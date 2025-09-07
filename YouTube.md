@@ -37,7 +37,7 @@ https://www.goethe.de/de/spr/kup/prf/prf/sd1/inf.html
 
 For convenience and for regular training, visit the radio app that jumps to the random position of the video and loops it indefinitely:
 
-https://german-a2.nosocial.net/
+https://german-a2.nosocial.net/ - FIXME: update 
 
 To prepare for the exam, I recommend that you open the app and play the video in the Firefox browser on your mobile device and listen to it carefully through headphones from the locked screen while walking outside, breathing the fresh air.
 
