@@ -63,6 +63,89 @@
 
 ---
 
+# **Deklination der Adjektive**
+
+#### **A. Mit bestimmtem Artikel (der/die/das, dieser, jener, jeder, welcher, solcher)**
+
+| Kasus         | Maskulin           | Neutrum             | Feminin              |
+|---------------|--------------------|---------------------|----------------------|
+| **Nominativ** | der blaue Anzug    | das neue Kleid      | die weiße Bluse      |
+| **Genitiv**   | des blauen Anzugs  | des neuen Kleids    | der weißen Bluse     |
+| **Dativ**     | dem blauen Anzug   | dem neuen Kleid     | der weißen Bluse     |
+| **Akkusativ** | den blauen Anzug   | das neue Kleid      | die weiße Bluse      |
+
+---
+
+#### **B. Mit unbestimmtem Artikel (ein-, kein-, mein-, dein-, sein-, ihr-, unser-, euer-, Ihr-)**
+
+| Kasus         | Maskulin           | Neutrum             | Feminin              |
+|---------------|--------------------|---------------------|----------------------|
+| **Nominativ** | ein blauer Anzug   | ein neues Kleid     | eine weiße Bluse     |
+| **Genitiv**   | eines blauen Anzugs| eines neuen Kleids  | einer weißen Bluse   |
+| **Dativ**     | einem blauen Anzug | einem neuen Kleid   | einer weißen Bluse   |
+| **Akkusativ** | einen blauen Anzug | ein neues Kleid     | eine weiße Bluse     |
+
+---
+
+#### **C. Plural – mit Artikel (die, diese, jede, welche, solche, alle, beide, meine, keine, usw.)**
+
+| Kasus         | Maskulin                | Neutrum                 | Feminin                  |
+|---------------|-------------------------|-------------------------|--------------------------|
+| **Nominativ** | die blauen Anzüge       | die neuen Kleider       | die weißen Blusen        |
+| **Genitiv**   | der blauen Anzüge       | der neuen Kleider       | der weißen Blusen        |
+| **Dativ**     | den blauen Anzügen      | den neuen Kleidern      | den weißen Blusen        |
+| **Akkusativ** | die blauen Anzüge       | die neuen Kleider       | die weißen Blusen        |
+
+---
+
+#### **D. Plural – ohne Artikel (zwei, drei, viele, wenige, einige, mehrere, manche, usw.)**
+
+| Kasus         | Maskulin            | Neutrum                | Feminin               |
+|---------------|---------------------|------------------------|-----------------------|
+| **Nominativ** | blaue Anzüge        | zwei neue Kleider      | viele weiße Blusen    |
+| **Genitiv**   | blauer Anzüge       | zwei neuer Kleider     | vieler weißer Blusen  |
+| **Dativ**     | blauen Anzügen      | zwei neuen Kleidern    | vielen weißen Blusen  |
+| **Akkusativ** | blaue Anzüge        | zwei neue Kleider      | viele weiße Blusen    |
+
+---
+
+#### **E. Adjektivdeklination ohne Artikel (Stoffnamen und Abstrakta)**
+
+| Kasus         | Maskulin         | Neutrum         | Feminin        |
+|---------------|------------------|-----------------|---------------|
+| **Nominativ** | schwarzer Tee    | kaltes Wasser   | frische Milch |
+| **Genitiv**   | schwarzen Tees   | kalten Wassers  | frischer Milch|
+| **Dativ**     | schwarzem Tee    | kaltem Wasser   | frischer Milch|
+| **Akkusativ** | schwarzen Tee    | kaltes Wasser   | frische Milch |
+
+---
+
+#### **F. Komparativ des Adjektivs (attributiv)**
+
+| Positiv (Grundform)  | Komparativ (Beispiel)        | Beispiel im Satz                                      |
+|----------------------|-----------------------------|-------------------------------------------------------|
+| hell                 | helleren                     | Haben Sie keinen helleren?                            |
+| billig               | billigeren/billigeres        | Haben Sie kein billigeres?                            |
+| modern               | modernere                    | Haben Sie keine modernere?                            |
+| billig (Plural)      | billigeren                   | Haben Sie keine billigeren?                           |
+
+---
+
+#### **G. Kurzübersicht: Adjektivendungen nach Artikeln (Singular)**
+
+| Artikeltyp                        | Maskulin    | Neutrum    | Feminin    | Plural      |
+|-----------------------------------|-------------|------------|------------|-------------|
+| **Bestimmter Artikel** (der...)   | -e/-en      | -e/-en     | -e/-en     | -en         |
+| **Unbestimmter Artikel** (ein...) | -er/-en     | -es/-en    | -e/-en     | -en         |
+| **Ohne Artikel**                  | -er/-en     | -es/-en    | -e/-er     | -e/-er/-en  |
+
+**Tipp:**
+- **Mit bestimmtem Artikel:** Adjektiv fast immer auf -en, außer im Nominativ/Akkusativ Singular.
+- **Mit unbestimmtem Artikel:** Adjektiv zeigt die Endung, die der Artikel nicht zeigt!
+- **Ohne Artikel:** Volle Deklination (starke Endungen)!
+
+---
+
 # Deklination der Substantive
 
 ---
@@ -205,4 +288,129 @@ Certainly! Here’s your **cheat sheet** with the Russian translation column rem
 
 - **Akkusativ** is used when the verb is directly reflexive (e.g., _sich freuen_).
 - **Dativ** is used when there is an additional object, usually a body part or something belonging to the subject (e.g., _sich die Hände waschen_).
+
+Below is a comprehensive, formatted cheat sheet for German prepositions, organized by case and including example sentences, explanations, and key verb pairs. The tables are designed for clarity and quick reference, following best practices for grammar cheat sheets   .
+
+---
+
+# German Prepositions
+
+## 1. Dative Prepositions (Präpositionen mit Dativ)
+
+| Preposition   | Meaning           | Example Sentence (DE)                                  | Example Sentence (EN)                  |
+|---------------|-------------------|-------------------------------------------------------|----------------------------------------|
+| mit           | with              | Ich spreche mit meinem Freund.                        | I speak with my friend.                |
+|               |                   | Das Kind schreibt mit einem Bleistift.                | The child writes with a pencil.        |
+| nach          | after, to         | Nach dem Glockenzeichen gehe ich nach Hause.          | After the bell, I go home.             |
+|               |                   | Nach dem Stundenplan haben wir montags Deutsch.       | According to the schedule, we have German on Mondays. |
+|               |                   | Nach Moskau kommen viele Touristen.                   | Many tourists come to Moscow.          |
+| aus           | out of, from      | Mein Vater geht aus dem Haus um 8 Uhr morgens.        | My father leaves the house at 8 a.m.   |
+|               |                   | Das Kind trinkt Milch aus einer Tasse.                | The child drinks milk from a cup.      |
+| zu            | to, at            | Heute kommt zu mir mein Freund.                       | Today my friend is coming to me.       |
+|               |                   | Zu Hause bin ich heute allein.                        | I am home alone today.                 |
+| von           | from, of          | Ich habe ein Geschenk von meinen Eltern bekommen.     | I got a present from my parents.       |
+|               |                   | Von Moskau bis Podolsk fahren wir mit dem Auto.       | We drive from Moscow to Podolsk.       |
+| bei           | at, near, with    | Alle Kollegen versammeln sich heute bei mir.          | All colleagues are gathering at my place today. |
+|               |                   | Diese Stadt liegt bei Moskau.                         | This city is near Moscow.              |
+| seit          | since, for        | Seit September wohnt unsere Familie in diesem Haus.   | Our family has lived in this house since September. |
+|               |                   | Wir wohnen in Moskau schon seit vielen Jahren.        | We have lived in Moscow for many years.|
+| außer         | except for        | Außer mir sind alle zur Vorlesung gekommen.           | Everyone except me came to the lecture.|
+| entgegen      | towards, against  | Das Kind sieht seine Mutter und läuft ihr entgegen.   | The child sees his mother and runs towards her. |
+| gegenüber     | opposite, across  | Mein Haus liegt dem Kino "Illusion" gegenüber.        | My house is opposite the "Illusion" cinema. |
+
+**Mnemonic:** "Aus, bei, mit, nach, seit, von, zu, außer, entgegen, gegenüber" .
+
+---
+
+## 2. Two-Way Prepositions (Wechselpräpositionen: Dativ oder Akkusativ)
+
+These prepositions take either the accusative (Wohin? – direction) or dative (Wo? – location) case, depending on context .
+
+| Preposition | Meaning         | Wohin? (Akkusativ, Direction)         | Wo? (Dativ, Location)                |
+|-------------|-----------------|---------------------------------------|--------------------------------------|
+| an          | at, on (vertical)| Ich setze mich an den Tisch.          | Ich sitze am Tisch.                  |
+| auf         | on (horizontal) | Ich lege das Buch auf den Tisch.      | Das Buch liegt auf dem Tisch.        |
+| hinter      | behind          | Er stellt den Stuhl hinter das Haus.  | Der Stuhl steht hinter dem Haus.     |
+| in          | in, into        | Ich gehe in die Schule.               | Ich bin in der Schule.               |
+| neben       | next to         | Setz dich neben mich.                 | Du sitzt neben mir.                  |
+| über        | over, above     | Er hängt die Lampe über den Tisch.    | Die Lampe hängt über dem Tisch.      |
+| unter       | under, below    | Die Katze läuft unter den Tisch.      | Die Katze liegt unter dem Tisch.     |
+| vor         | in front of     | Ich stelle das Auto vor das Haus.     | Das Auto steht vor dem Haus.         |
+| zwischen    | between         | Ich stelle den Stuhl zwischen die Sessel. | Der Stuhl steht zwischen den Sesseln. |
+
+**Key Verb Pairs:**
+- stellen (to place upright) ↔ stehen (to stand)
+- legen (to lay) ↔ liegen (to lie)
+- setzen (to seat) ↔ sitzen (to sit)
+- hängen (to hang, action) ↔ hängen (to hang, state)
+
+**Examples:**
+
+| Verb Pair         | Akkusativ (Wohin?)                | Dativ (Wo?)                       |
+|-------------------|-----------------------------------|-----------------------------------|
+| stellen/stehen    | Er stellt den Stuhl in die Ecke.  | Der Stuhl steht in der Ecke.      |
+| legen/liegen      | Er legt das Buch auf den Tisch.   | Das Buch liegt auf dem Tisch.     |
+| setzen/sitzen     | Er setzt sich an den Tisch.       | Er sitzt am Tisch.                |
+| hängen/hängen     | Sie hängt das Bild an die Wand.   | Das Bild hängt an der Wand.       |
+
+**Tip:** Use "in das" = "ins", "an das" = "ans", "an dem" = "am", "in dem" = "im" for contractions .
+
+---
+
+## 3. Accusative Prepositions (Präpositionen mit Akkusativ)
+
+| Preposition | Meaning      | Example Sentence (DE)                        | Example Sentence (EN)                |
+|-------------|-------------|----------------------------------------------|--------------------------------------|
+| durch       | through      | Wir gingen durch den Park.                   | We walked through the park.          |
+|             |             | Ich sehe durch das Fenster.                  | I see through the window.            |
+| entlang     | along        | Das Auto fuhr die Straße entlang.            | The car drove along the street.      |
+| für         | for          | Diese Blumen sind für meine Mutter.          | These flowers are for my mother.     |
+|             |             | Ich fahre aufs Land für zwei Tage.            | I go to the countryside for two days.|
+| gegen       | against      | Ärzte sind gegen das Rauchen.                | Doctors are against smoking.         |
+|             |             | Ich kam nach Hause gegen 11 Uhr.             | I came home around 11 o'clock.       |
+| ohne        | without      | Ohne Auto kann er nicht auskommen.           | He can't manage without a car.       |
+|             |             | Ohne warmen Mantel darf man nicht ausgehen.  | You shouldn't go out without a warm coat. |
+| um          | around, at   | Um das Haus stehen viele Bäume.              | There are many trees around the house.|
+|             |             | Um 9 Uhr fängt der Unterricht an.            | The lesson starts at 9 o'clock.      |
+| bis         | until, to    | Von Moskau bis Petersburg fahre ich mit dem Zug. | I travel from Moscow to Petersburg by train. |
+|             |             | Von 14 bis 15 Uhr ist das Geschäft geschlossen. | The shop is closed from 2 to 3 p.m.  |
+
+**Mnemonic:** "FUDGO" – für, um, durch, gegen, ohne .
+
+---
+
+## 4. Genitive Prepositions (Präpositionen mit Genitiv)
+
+| Preposition | Meaning         | Example Sentence (DE)                        | Example Sentence (EN)                |
+|-------------|----------------|----------------------------------------------|--------------------------------------|
+| während     | during         | Während der Reise erlebte ich viel Interessantes. | I experienced many interesting things during the trip. |
+| trotz       | despite        | Trotz seiner Krankheit kam er zur Prüfung.   | Despite his illness, he came to the exam. |
+| wegen       | because of     | Wegen starken Regens mussten wir zu Hause bleiben. | Because of heavy rain, we had to stay home. |
+| (an)statt   | instead of     | Statt der ersten Übung habe ich die zweite geschrieben. | Instead of the first exercise, I did the second one. |
+
+---
+
+## 5. Visual Mnemonics and Tips
+
+- **Color-coding:** Use red for accusative, blue for dative, green for genitive, and purple for two-way prepositions for quick visual reference .
+- **Mnemonic Phrases:**
+    - Accusative: "FUDGO"
+    - Dative: "Aus Bens nettem Salon verzaubern"
+    - Two-way: "An Aunt Hilda Is Never Usually Under Very Zealousness"
+- **Flowchart for Two-Way Prepositions:**
+    - Is there movement (Wohin)? → Accusative
+    - Is it a location (Wo)? → Dative
+
+---
+
+## 6. Summary Table: Prepositions by Case
+
+| Case        | Prepositions (Mnemonic)                                 | Example Sentence (DE)                |
+|-------------|--------------------------------------------------------|--------------------------------------|
+| Accusative  | für, um, durch, gegen, ohne, entlang, bis (FUDGO)      | Ich gehe ohne dich.                  |
+| Dative      | aus, bei, mit, nach, seit, von, zu, außer, entgegen, gegenüber | Ich fahre mit dem Bus.         |
+| Genitive    | während, trotz, wegen, (an)statt                       | Wegen des Wetters bleibe ich.        |
+| Two-way     | an, auf, hinter, in, neben, über, unter, vor, zwischen | Das Bild hängt an der Wand.          |
+
+---
 
