@@ -1,14 +1,27 @@
-# **Definite & Indefinite Article Declension (German Substantive)**
+# Definite & Indefinite Article (Bestimmter & Unbestimmter Artikel)
 
-| Kasus      | Maskulin (der/ein) | Feminin (die/eine) | Neutrum (das/ein) | Plural (die/—) |
-|------------|--------------------|--------------------|-------------------|---------------|
-| **Nominativ**  | **der** / ein        | **die** / eine       | **das** / ein       | **die** / —     |
-| **Akkusativ**  | **den** / einen      | **die** / eine       | **das** / ein       | **die** / —     |
-| **Dativ**      | **dem** / einem      | **der** / einer      | **dem** / einem     | **den** / —     |
-| **Genitiv**    | **des** / eines      | **der** / einer      | **des** / eines     | **der** / —     |
+| **Kasus (Case)** | **Maskulin (der/ein)** | **Neutrum (das/ein)** | **Feminin (die/eine)** | **Plural (die/—)** |
+|------------------|:----------------------:|:----------------------------------:|:------------------------------------:|:------------------------------:|
+| **Nominativ**   |     **der** / ein      | **das** / ein      | **die** / eine      | **die** / —      |
+| **Genitiv**       |    **des** / eines     | **des** / eines    | **der** / einer     | **der** / —      |
+| **Dativ**           |    **dem** / einem     | **dem** / einem    | **der** / einer     | **den** / —      |
+| **Akkusativ**   |    **den** / einen     | **das** / ein      | **die** / eine      | **die** / —      |
 
 
-# **Possessivpronomen**
+---
+
+# **Personalpronomen (Personal Pronouns)**
+
+| Kasus / Case   | 1. Person Sg. <br> ich | 2. Person Sg. <br> du | 3. Person Sg. <br> er | 3. Person Sg. <br> es | 3. Person Sg. <br> sie | Höflichkeitsform Sg. <br> Sie | 1. Person Pl. <br> wir | 2. Person Pl. <br> ihr | 3. Person Pl. <br> sie | Höflichkeitsform Pl. <br> Sie |
+|----------------|:----------------------:|:---------------------:|:---------------------:|:---------------------:|:----------------------:|:---------------------------:|:----------------------:|:---------------------:|:----------------------:|:---------------------------:|
+| **Nominativ**  | ich                    | du                    | er                    | es                    | sie                    | Sie                        | wir                   | ihr                  | sie                   | Sie                        |
+| **Dativ**      | mir                    | dir                   | ihm                   | ihm                   | ihr                    | Ihnen                      | uns                   | euch                 | ihnen                 | Ihnen                      |
+| **Akkusativ**  | mich                   | dich                  | ihn                   | es                    | sie                    | Sie                        | uns                   | euch                 | sie                   | Sie                        |
+
+
+---
+
+# Possessivartikel (Possessivpronomen)
 
 | Person      | Maskulin (Bruder)     | Neutrum (Heft)      | Feminin (Schwester)      |
 |-------------|----------------------|---------------------|--------------------------|
@@ -30,6 +43,19 @@
 | **Genitiv**     | unseres Freundes          | unseres Hauses          | unserer Wohnung           | unserer Freunde      |
 | **Dativ**       | unserem Freund            | unserem Haus            | unserer Wohnung           | unseren Freunden     |
 | **Akkusativ**   | unseren Freund            | unser Haus              | unsere Wohnung            | unsere Freunde       |
+
+---
+
+# **Reflexivpronomen**
+
+| Person         | Akkusativ  | Dativ   |
+|----------------|------------|---------|
+| ich            | mich       | mir     |
+| du             | dich       | dir     |
+| er/sie/es      | sich       | sich    |
+| wir            | uns        | uns     |
+| ihr            | euch       | euch    |
+| sie/Sie        | sich       | sich    |
 
 ---
 
@@ -255,19 +281,6 @@
 ---
 
 Certainly! Here’s your **cheat sheet** with the Russian translation column removed, keeping the focus on the German grammar:
-
----
-
-# **Reflexivpronomen**
-
-| Person         | Akkusativ  | Dativ   |
-|----------------|------------|---------|
-| ich            | mich       | mir     |
-| du             | dich       | dir     |
-| er/sie/es      | sich       | sich    |
-| wir            | uns        | uns     |
-| ihr            | euch       | euch    |
-| sie/Sie        | sich       | sich    |
 
 ---
 
