@@ -378,6 +378,7 @@ These prepositions take either the accusative (Wohin? – direction) or dative (
 **Tip:** Use "in das" = "ins", "an das" = "ans", "an dem" = "am", "in dem" = "im" for contractions .
 
 ---
+<div style="page-break-before: always;"></div>
 
 ## 3. Accusative Prepositions (Präpositionen mit Akkusativ)
 
@@ -400,6 +401,7 @@ These prepositions take either the accusative (Wohin? – direction) or dative (
 **Mnemonic:** "FUDGO" – für, um, durch, gegen, ohne .
 
 ---
+<div style="page-break-before: always;"></div>
 
 ## 4. Genitive Prepositions (Präpositionen mit Genitiv)
 
