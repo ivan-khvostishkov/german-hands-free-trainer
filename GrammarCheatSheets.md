@@ -289,9 +289,6 @@
 
 ---
 
-Certainly! Here’s your **cheat sheet** with the Russian translation column removed, keeping the focus on the German grammar:
-
----
 
 #### **Beispielsätze (Example Sentences)**
 
