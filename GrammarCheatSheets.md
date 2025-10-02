@@ -415,20 +415,7 @@ These prepositions take either the accusative (Wohin? – direction) or dative (
 
 ---
 
-## 5. Visual Mnemonics and Tips
-
-- **Color-coding:** Use red for accusative, blue for dative, green for genitive, and purple for two-way prepositions for quick visual reference .
-- **Mnemonic Phrases:**
-    - Accusative: "FUDGO"
-    - Dative: "Aus Bens nettem Salon verzaubern"
-    - Two-way: "An Aunt Hilda Is Never Usually Under Very Zealousness"
-- **Flowchart for Two-Way Prepositions:**
-    - Is there movement (Wohin)? → Accusative
-    - Is it a location (Wo)? → Dative
-
----
-
-## 6. Summary Table: Prepositions by Case
+## 5. Summary Table: Prepositions by Case
 
 | Case        | Prepositions (Mnemonic)                                 | Example Sentence (DE)                |
 |-------------|--------------------------------------------------------|--------------------------------------|
