@@ -21,6 +21,7 @@
 | **Akkusativ**  | mich                   | dich                  | ihn                   | es                    | sie                    |              Sie               |
 
 ---
+<div style="page-break-before: always;"></div>
 
 #### **Table 2: Plural Pronouns**
 
@@ -30,8 +31,6 @@
 | **Dativ**      | uns                    | euch                   | ihnen                  |             Ihnen              |
 | **Akkusativ**  | uns                    | euch                   | sie                    |              Sie               |
 
-
----
 
 # Possessivartikel (Possessivpronomen)
 
@@ -44,8 +43,6 @@
 | **wir**     | unser Bruder         | unser Heft          | unsere Schwester         |
 | **ihr**     | euer Bruder          | euer Heft           | eure Schwester           |
 | **sie, Sie**| ihr (Ihr) Bruder     | ihr (Ihr) Heft      | ihre (Ihre) Schwester    |
-
----
 
 #### **Beispiel: Deklination mit "unser"**
 
