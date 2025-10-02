@@ -14,21 +14,21 @@
 
 #### **Table 1: Singular Pronouns**
 
-| Kasus / Case   | 1. Person Sg. <br> ich | 2. Person Sg. <br> du | 3. Person Sg. <br> er | 3. Person Sg. <br> es | 3. Person Sg. <br> sie | Höflichkeitsform Sg. <br> Sie |
-|----------------|:----------------------:|:---------------------:|:---------------------:|:---------------------:|:----------------------:|:---------------------------:|
-| **Nominativ**  | ich                    | du                    | er                    | es                    | sie                    | Sie                        |
-| **Dativ**      | mir                    | dir                   | ihm                   | ihm                   | ihr                    | Ihnen                      |
-| **Akkusativ**  | mich                   | dich                  | ihn                   | es                    | sie                    | Sie                        |
+| Kasus / Case   | 1. Person Sg. <br> ich | 2. Person Sg. <br> du | 3. Person Sg. <br> er | 3. Person Sg. <br> es | 3. Person Sg. <br> sie | Höflichkeits-<br>form Sg. <br> Sie |
+|----------------|:----------------------:|:---------------------:|:---------------------:|:---------------------:|:----------------------:|:------------------------------:|
+| **Nominativ**  | ich                    | du                    | er                    | es                    | sie                    |              Sie               |
+| **Dativ**      | mir                    | dir                   | ihm                   | ihm                   | ihr                    |             Ihnen              |
+| **Akkusativ**  | mich                   | dich                  | ihn                   | es                    | sie                    |              Sie               |
 
 ---
 
 #### **Table 2: Plural Pronouns**
 
-| Kasus / Case   | 1. Person Pl. <br> wir | 2. Person Pl. <br> ihr | 3. Person Pl. <br> sie | Höflichkeitsform Pl. <br> Sie |
-|----------------|:----------------------:|:----------------------:|:----------------------:|:---------------------------:|
-| **Nominativ**  | wir                    | ihr                    | sie                    | Sie                        |
-| **Dativ**      | uns                    | euch                   | ihnen                  | Ihnen                      |
-| **Akkusativ**  | uns                    | euch                   | sie                    | Sie                        |
+| Kasus / Case   | 1. Person Pl. <br> wir | 2. Person Pl. <br> ihr | 3. Person Pl. <br> sie | Höflichkeits-<br>form Pl. <br> Sie |
+|----------------|:----------------------:|:----------------------:|:----------------------:|:------------------------------:|
+| **Nominativ**  | wir                    | ihr                    | sie                    |              Sie               |
+| **Dativ**      | uns                    | euch                   | ihnen                  |             Ihnen              |
+| **Akkusativ**  | uns                    | euch                   | sie                    |              Sie               |
 
 
 ---
