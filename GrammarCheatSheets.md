@@ -66,6 +66,25 @@
 | ihr            | euch       | euch    |
 | sie/Sie        | sich       | sich    |
 
+
+#### **Beispielsätze (Example Sentences)**
+
+| Person         | Akkusativ (sich freuen)      | Dativ (sich die Hände waschen)      |
+|----------------|-----------------------------|-------------------------------------|
+| ich            | Ich freue **mich**          | Ich wasche **mir** die Hände        |
+| du             | Du freust **dich**          | Du wäschst **dir** die Hände        |
+| er/sie/es      | Er freut **sich**           | Er wäscht **sich** die Hände        |
+| wir            | Wir freuen **uns**          | Wir waschen **uns** die Hände       |
+| ihr            | Ihr freut **euch**          | Ihr wascht **euch** die Hände       |
+| sie/Sie        | Sie freuen **sich**         | Sie waschen **sich** die Hände      |
+
+
+#### **Hinweise**
+
+- **Akkusativ** is used when the verb is directly reflexive (e.g., _sich freuen_).
+- **Dativ** is used when there is an additional object, usually a body part or something belonging to the subject (e.g., _sich die Hände waschen_).
+
+
 ---
 
 # **Demonstrativpronomen (German Demonstrative Pronouns)**
@@ -90,7 +109,6 @@
 | **Dat.**   | diesem Mann         | diesem Kind         | dieser Frau         | diesen Leuten        |
 | **Akk.**   | diesen Mann         | dieses Kind         | diese Frau          | diese Leute          |
 
----
 
 **Notes:**
 - The endings for **dieser, jener, jeder, solcher** are identical and follow the strong declension pattern for articles.
@@ -287,28 +305,6 @@
 | Dativ      | wem?           | den Namen                 | den Herzen           |
 | Akkusativ  | wen?           | die Namen                 | die Herzen           |
 
----
-
-
-#### **Beispielsätze (Example Sentences)**
-
-| Person         | Akkusativ (sich freuen)      | Dativ (sich die Hände waschen)      |
-|----------------|-----------------------------|-------------------------------------|
-| ich            | Ich freue **mich**          | Ich wasche **mir** die Hände        |
-| du             | Du freust **dich**          | Du wäschst **dir** die Hände        |
-| er/sie/es      | Er freut **sich**           | Er wäscht **sich** die Hände        |
-| wir            | Wir freuen **uns**          | Wir waschen **uns** die Hände       |
-| ihr            | Ihr freut **euch**          | Ihr wascht **euch** die Hände       |
-| sie/Sie        | Sie freuen **sich**         | Sie waschen **sich** die Hände      |
-
----
-
-#### **Hinweise**
-
-- **Akkusativ** is used when the verb is directly reflexive (e.g., _sich freuen_).
-- **Dativ** is used when there is an additional object, usually a body part or something belonging to the subject (e.g., _sich die Hände waschen_).
-
-Below is a comprehensive, formatted cheat sheet for German prepositions, organized by case and including example sentences, explanations, and key verb pairs. The tables are designed for clarity and quick reference, following best practices for grammar cheat sheets   .
 
 ---
 
