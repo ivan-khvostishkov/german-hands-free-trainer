@@ -86,7 +86,6 @@ public class NarratePhrases {
                 .engine(Engine.NEURAL)
                 .build();
 
-        System.out.println("Narrating SSML: " + text);
         var synthRes = polly.synthesizeSpeech(synthReq);
         System.out.println("Saving audio to S3...");
 
@@ -181,7 +180,7 @@ public class NarratePhrases {
         for (int i = 0; i < germanPhrases.length; i++) {
             System.out.println("Narrating phrase " + (i + 1) + " of " + germanPhrases.length);
 
-            String germanPhraseSSML = "<speak>"
+            String germanPhraseSSML = "<speak><mark name=\"sub_start\"/><prosody rate=\"medium\">\n"
                     + quoteForPolly(germanPhrases[i])
                     + "\n<break time=\"5s\"/>\n"
                     + "</prosody><mark name=\"sub_end\"/></speak>";
