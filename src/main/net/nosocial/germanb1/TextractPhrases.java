@@ -21,7 +21,7 @@ public class TextractPhrases {
     public static final String JSON_FILE = "out/b1-textract-blocks.json";
 
     public static void main(String[] args) {
-        System.out.println("German B1 Hands-Free Trainer (c) 2013-2025 by NoSocial.Net");
+        System.out.println("German Hands-Free Trainer (c) 2013-2026 by NoSocial.Net");
 
         try (TextractClient client = TextractClient.builder()
                 .region(Region.EU_WEST_1)

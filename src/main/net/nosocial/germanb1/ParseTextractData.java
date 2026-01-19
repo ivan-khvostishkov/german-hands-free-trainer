@@ -22,7 +22,7 @@ public class ParseTextractData {
     public static final String S3_PATH = "goethe_de/extract/b1-phrases.txt";
 
     public static void main(String[] args) {
-        System.out.println("German B1 Hands-Free Trainer (c) 2013-2025 by NoSocial.Net");
+        System.out.println("German Hands-Free Trainer (c) 2013-2026 by NoSocial.Net");
 
         try {
             String jsonContent = Files.readString(new File(JSON_FILE).toPath());
