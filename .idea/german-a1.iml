@@ -20,5 +20,6 @@
     <orderEntry type="library" name="software.amazon.awssdk.ssooidc" level="project" />
     <orderEntry type="library" name="slf4j.simple" level="project" />
     <orderEntry type="library" name="software.amazon.awssdk.textract" level="project" />
+    <orderEntry type="library" name="software.amazon.awssdk.translate" level="project" />
   </component>
 </module>

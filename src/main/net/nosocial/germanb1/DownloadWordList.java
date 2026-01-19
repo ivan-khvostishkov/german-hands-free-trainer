@@ -21,7 +21,7 @@ import java.util.List;
 
 public class DownloadWordList {
 
-    public static final String BUCKET_NAME = "german-a1-trainer";
+    public static final String BUCKET_NAME = "german-hands-free";
     public static final String PATH = "goethe_de/Goethe-Zertifikat_B1_Wortliste.pdf";
     public static final String FILE_URL = "https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_B1_Wortliste.pdf";
 
