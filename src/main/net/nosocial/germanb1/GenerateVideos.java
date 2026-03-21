@@ -40,7 +40,7 @@ public class GenerateVideos {
             System.out.println("Processing part " + (part + 1) + "...");
             
             int count = countNarratedFiles(part);
-            int totalPhrases = count / 3;
+            int totalPhrases = count / 9;
             System.out.println("Found " + count + " files for " + totalPhrases + " phrases (part " + (part + 1) + ")");
 
             System.out.println("Downloading files for part " + (part + 1) + "...");
