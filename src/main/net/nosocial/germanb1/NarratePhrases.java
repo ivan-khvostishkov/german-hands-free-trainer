@@ -19,13 +19,15 @@ import java.time.temporal.ChronoUnit;
 import java.util.List;
 
 public class NarratePhrases {
-    public static final String NARRATE_PATH = "goethe_de/narrate-b1/";
-    public static final String MP3_FILE_NAME_DE = "b1-phrases-p1-%03d-01-de.mp3";
-    public static final String S3_MP3_PATH_DE = NARRATE_PATH + MP3_FILE_NAME_DE;
-    public static final String MP3_FILE_NAME_EN = "b1-phrases-p1-%03d-02-en.mp3";
-    public static final String S3_MP3_PATH_EN = NARRATE_PATH + MP3_FILE_NAME_EN;
-    public static final String MP3_FILE_NAME_DE_SLOW = "b1-phrases-p1-%03d-03-de-slow.mp3";
-    public static final String S3_MP3_PATH_DE_SLOW = NARRATE_PATH + MP3_FILE_NAME_DE_SLOW;
+    public static final String[] NARRATE_PATHS = {
+        "goethe_de/narrate-b1-part1/",
+        "goethe_de/narrate-b1-part2/",
+        "goethe_de/narrate-b1-part3/"
+    };
+
+    public static final String MP3_FILE_NAME_DE = "b1-phrases-p%d-%03d-01-de.mp3";
+    public static final String MP3_FILE_NAME_EN = "b1-phrases-p%d-%03d-02-en.mp3";
+    public static final String MP3_FILE_NAME_DE_SLOW = "b1-phrases-p%d-%03d-03-de-slow.mp3";
 
     public static final S3Client s3Client = S3Client.builder()
             .region(Region.EU_WEST_1)
@@ -166,43 +168,47 @@ public class NarratePhrases {
             return;
         }
 
-        File germanFile = new File(TranslatePhrases.LOCAL_PATH_IN);
-        File englishFile = new File(TranslatePhrases.LOCAL_PATH_OUT);
+        for (int part = 0; part < 3; part++) {
+            System.out.println("Processing part " + (part + 1) + "...");
+            
+            File germanFile = new File(TranslatePhrases.INPUT_FILES[part]);
+            File englishFile = new File(TranslatePhrases.OUTPUT_FILES[part]);
 
-        String[] germanPhrases = new BufferedReader(new FileReader(germanFile)).lines().toArray(String[]::new);
-        String[] englishPhrases = new BufferedReader(new FileReader(englishFile)).lines().toArray(String[]::new);
+            String[] germanPhrases = new BufferedReader(new FileReader(germanFile)).lines().toArray(String[]::new);
+            String[] englishPhrases = new BufferedReader(new FileReader(englishFile)).lines().toArray(String[]::new);
 
-        if (germanPhrases.length != englishPhrases.length) {
-            System.out.println("Phrases count mismatch!");
-            return;
-        }
+            if (germanPhrases.length != englishPhrases.length) {
+                System.out.println("Phrases count mismatch for part " + (part + 1) + "!");
+                return;
+            }
 
-        for (int i = 0; i < germanPhrases.length; i++) {
-            System.out.println("Narrating phrase " + (i + 1) + " of " + germanPhrases.length);
+            for (int i = 0; i < germanPhrases.length; i++) {
+                System.out.println("Narrating phrase " + (i + 1) + " of " + germanPhrases.length + " (part " + (part + 1) + ")");
 
-            String germanPhraseSSML = "<speak><mark name=\"sub_start\"/><prosody rate=\"medium\">\n"
-                    + quoteForPolly(germanPhrases[i])
-                    + "\n<break time=\"5s\"/>\n"
-                    + "</prosody><mark name=\"sub_end\"/></speak>";
+                String germanPhraseSSML = "<speak><mark name=\"sub_start\"/><prosody rate=\"medium\">\n"
+                        + quoteForPolly(germanPhrases[i])
+                        + "\n<break time=\"5s\"/>\n"
+                        + "</prosody><mark name=\"sub_end\"/></speak>";
 
-            String germanPhraseSlowSSML = "<speak><mark name=\"sub_start\"/><prosody rate=\"x-slow\">\n"
-                    + quoteForPolly(germanPhrases[i])
-                    + "\n<break time=\"5s\"/>\n"
-                    + "</prosody><mark name=\"sub_end\"/></speak>";
+                String germanPhraseSlowSSML = "<speak><mark name=\"sub_start\"/><prosody rate=\"x-slow\">\n"
+                        + quoteForPolly(germanPhrases[i])
+                        + "\n<break time=\"5s\"/>\n"
+                        + "</prosody><mark name=\"sub_end\"/></speak>";
 
-            String englishPhraseSSML = "<speak><mark name=\"sub_start\"/><prosody rate=\"medium\">\n"
-                    + quoteForPolly(englishPhrases[i])
-                    + "\n<break time=\"5s\"/>\n"
-                    + "</prosody><mark name=\"sub_end\"/></speak>";
+                String englishPhraseSSML = "<speak><mark name=\"sub_start\"/><prosody rate=\"medium\">\n"
+                        + quoteForPolly(englishPhrases[i])
+                        + "\n<break time=\"5s\"/>\n"
+                        + "</prosody><mark name=\"sub_end\"/></speak>";
 
-            String germanFileName = String.format(S3_MP3_PATH_DE, i + 1);
-            narrate(polly, germanVoice, germanPhraseSSML, germanFileName, germanPhrases[i]);
+                String germanFileName = NARRATE_PATHS[part] + String.format(MP3_FILE_NAME_DE, part + 1, i + 1);
+                narrate(polly, germanVoice, germanPhraseSSML, germanFileName, germanPhrases[i]);
 
-            String germanSlowFileName = String.format(S3_MP3_PATH_DE_SLOW, i + 1);
-            narrate(polly, germanVoice, germanPhraseSlowSSML, germanSlowFileName, germanPhrases[i]);
+                String germanSlowFileName = NARRATE_PATHS[part] + String.format(MP3_FILE_NAME_DE_SLOW, part + 1, i + 1);
+                narrate(polly, germanVoice, germanPhraseSlowSSML, germanSlowFileName, germanPhrases[i]);
 
-            String englishFileName = String.format(S3_MP3_PATH_EN, i + 1);
-            narrate(polly, englishVoice, englishPhraseSSML, englishFileName, englishPhrases[i]);
+                String englishFileName = NARRATE_PATHS[part] + String.format(MP3_FILE_NAME_EN, part + 1, i + 1);
+                narrate(polly, englishVoice, englishPhraseSSML, englishFileName, englishPhrases[i]);
+            }
         }
 
         System.out.println("Done.");
