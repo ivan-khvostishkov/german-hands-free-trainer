@@ -1,4 +1,4 @@
-# German Hands-Free Trainer by NoSocial.Net
+# German Hands-Free Audio Trainer by NoSocial.Net
 
 A tool that creates narrated German language training videos from official Goethe-Zertifikat exam materials for A1, A2, and B1 levels.
 

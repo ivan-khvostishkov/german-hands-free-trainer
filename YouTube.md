@@ -1,6 +1,6 @@
-# German A1 Hands-Free Trainer   
+# German A1 Hands-Free Audio Trainer   
 
-German A1 Hands-free Trainer narrates phrases from German A1: Start Deutsch 1 word list for the Goethe Institut exam:
+German A1 Hands-Free Trainer narrates phrases from German A1: Start Deutsch 1 word list for the Goethe Institut exam:
 
 https://www.goethe.de/de/spr/kup/prf/prf/sd1/inf.html
 
@@ -34,9 +34,9 @@ See the source code of the tool on my GitHub:
 https://github.com/ivan-khvostishkov/german-hands-free-trainer
 
 
-# German A2 Hands-Free Trainer   
+# German A2 Hands-Free Audio Trainer   
 
-German A2 Hands-free Trainer narrates phrases from German A2 word list for the Goethe Institut exam:
+German A2 Hands-Free Trainer narrates phrases from German A2 word list for the Goethe Institut exam:
 
 https://www.goethe.de/de/spr/kup/prf/prf/sd1/inf.html
 
@@ -70,9 +70,9 @@ See the source code of the tool on my GitHub:
 https://github.com/ivan-khvostishkov/german-hands-free-trainer
 
 
-# German B1 Hands-Free Trainer - Part 1
+# German B1 Hands-Free Audio Trainer - Part 1
 
-German B1 Hands-free Trainer narrates phrases from German B1 word list for the Goethe-Zertifikat B1 exam:
+German B1 Hands-Free Trainer narrates phrases from German B1 word list for the Goethe-Zertifikat B1 exam:
 
 https://www.goethe.de/de/spr/kup/prf/prf/sd1/inf.html
 
@@ -106,9 +106,9 @@ See the source code of the tool on my GitHub:
 https://github.com/ivan-khvostishkov/german-hands-free-trainer
 
 
-# German B1 Hands-Free Trainer - Part 2
+# German B1 Hands-Free Audio Trainer - Part 2
 
-German B1 Hands-free Trainer narrates phrases from German B1 word list for the Goethe-Zertifikat B1 exam:
+German B1 Hands-Free Trainer narrates phrases from German B1 word list for the Goethe-Zertifikat B1 exam:
 
 https://www.goethe.de/de/spr/kup/prf/prf/sd1/inf.html
 
@@ -142,9 +142,9 @@ See the source code of the tool on my GitHub:
 https://github.com/ivan-khvostishkov/german-hands-free-trainer
 
 
-# German B1 Hands-Free Trainer - Part 3
+# German B1 Hands-Free Audio Trainer - Part 3
 
-German B1 Hands-free Trainer narrates phrases from German B1 word list for the Goethe-Zertifikat B1 exam:
+German B1 Hands-Free Trainer narrates phrases from German B1 word list for the Goethe-Zertifikat B1 exam:
 
 https://www.goethe.de/de/spr/kup/prf/prf/sd1/inf.html
 
