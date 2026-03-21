@@ -1,53 +1,168 @@
 # German A1 Hands-Free Trainer   
 
-German A1 Hands-free Trainer narrates phrases from German A1: Start Deutsch 1 word list for the Goethe Insitut exam:
+German A1 Hands-free Trainer narrates phrases from German A1: Start Deutsch 1 word list for the Goethe Institut exam:
 
 https://www.goethe.de/de/spr/kup/prf/prf/sd1/inf.html
 
-To prepare for the exam, I recommend that you play the video in the Firefox browser on your mobile device and listen to it carefully through headphones from the locked screen while walking outside, breathing the fresh air and keeping your hands free from your phone.
+For hands-free learning with random positioning and infinite looping, use the [BookTube](https://github.com/ivan-khvostishkov/booktube) app:
 
-For convenience and for regular training, the video has 7 parts, one for each day of the week:
+https://booktube.nosocial.net/?v=tSCrnPUt-pU&sleep=60&loop=true&pos=random&edit=true
 
-* 00:00:00 Part 1 (Monday)
-* 00:43:59 Part 2 (Tuesday)
-* 01:27:44 Part 3 (Wednesday)
-* 02:11:29 Part 4 (Thursday)
-* 02:55:19 Part 5 (Friday)
-* 03:39:10 Part 6 (Saturday)
-* 04:22:44 Part 7 (Sunday)
+## Recommended Usage
 
-Check the other German trainer videos on my YouTube channel:
+Open the BookTube app on your mobile device in Edge or Firefox browser. Listen through headphones while walking outdoors for optimal learning experience. The app includes a sleep timer (set to 60 minutes), can loop videos indefinitely, and scrolls to a random position every time you load the app.
 
+Check all German trainer videos on my YouTube channel:
+
+* German A1 (Start Deutsch 1): https://youtu.be/tSCrnPUt-pU (this video)
 * German A2: https://www.youtube.com/watch?v=esvhhEGLTNA
-* German B1: TBD
+* German B1 Part 1: TBD
+* German B1 Part 2: TBD  
+* German B1 Part 3: TBD
 
-
-To create these videos, I developed the tool, which works by downloading the "Wortliste" PDF with German words and sample phrases from the Goethe Insitut website, parsing it with Amazon Textract, extracting and translating the phrases from German into English by Amazon Translate and narrating the phrases with Amazon Polly. Finally, it assembles the audio files into a video file and hardcodes subtitles with FFMpeg using the speech marks that Polly produces during speech-to-text conversion.
+To create these videos, I developed a tool that automatically:
+1. Downloads official "Wortliste" PDFs from the Goethe Institut website
+2. Extracts text using [Amazon Textract](https://aws.amazon.com/textract/)
+3. Translates phrases from German to English with [Amazon Translate](https://aws.amazon.com/translate/)
+4. Generates narration using [Amazon Polly](https://aws.amazon.com/polly/)
+5. Creates videos with hardcoded subtitles using [FFmpeg](https://www.ffmpeg.org/)
 
 See the source code of the tool on my GitHub:
 
-https://github.com/ivan-khvostishkov/german-a1-trainer
+https://github.com/ivan-khvostishkov/german-hands-free-trainer
 
 
 # German A2 Hands-Free Trainer   
 
-German A2 Hands-free Trainer narrates phrases from German A2 word list for the Goethe Insitut exam:
+German A2 Hands-free Trainer narrates phrases from German A2 word list for the Goethe Institut exam:
 
 https://www.goethe.de/de/spr/kup/prf/prf/sd1/inf.html
 
-For convenience and for regular training, visit the radio app that jumps to the random position of the video and loops it indefinitely:
+For hands-free learning with random positioning and infinite looping, use the [BookTube](https://github.com/ivan-khvostishkov/booktube) app:
 
-https://german-a2.nosocial.net/ - FIXME: update 
+https://booktube.nosocial.net/?v=esvhhEGLTNA&sleep=60&loop=true&pos=random&edit=true
 
-To prepare for the exam, I recommend that you open the app and play the video in the Firefox browser on your mobile device and listen to it carefully through headphones from the locked screen while walking outside, breathing the fresh air.
+## Recommended Usage
 
-Check the other German trainer videos on my YouTube channel:
+Open the BookTube app on your mobile device in Edge or Firefox browser. Listen through headphones while walking outdoors for optimal learning experience. The app includes a sleep timer (set to 60 minutes), can loop videos indefinitely, and scrolls to a random position every time you load the app.
+
+Check all German trainer videos on my YouTube channel:
 
 * German A1 (Start Deutsch 1): https://youtu.be/tSCrnPUt-pU
-* German B1: TBD
+* German A2: https://www.youtube.com/watch?v=esvhhEGLTNA (this video)
+* German B1 Part 1: TBD
+* German B1 Part 2: TBD
+* German B1 Part 3: TBD
 
-To create these videos, I developed the tool, which works by downloading the "Wortliste" PDF with German words and sample phrases from the Goethe Insitut website, parsing it with Amazon Textract, extracting and translating the phrases from German into English by Amazon Translate and narrating the phrases with Amazon Polly. Finally, it assembles the audio files into a video file and hardcodes subtitles with FFMpeg using the speech marks that Polly produces during speech-to-text conversion.
+To create these videos, I developed a tool that automatically:
+1. Downloads official "Wortliste" PDFs from the Goethe Institut website
+2. Extracts text using [Amazon Textract](https://aws.amazon.com/textract/)
+3. Translates phrases from German to English with [Amazon Translate](https://aws.amazon.com/translate/)
+4. Generates narration using [Amazon Polly](https://aws.amazon.com/polly/)
+5. Creates videos with hardcoded subtitles using [FFmpeg](https://www.ffmpeg.org/)
 
 See the source code of the tool on my GitHub:
 
-https://github.com/ivan-khvostishkov/german-a1-trainer
+https://github.com/ivan-khvostishkov/german-hands-free-trainer
+
+
+# German B1 Hands-Free Trainer - Part 1
+
+German B1 Hands-free Trainer (Part 1) narrates phrases from German B1 word list for the Goethe-Zertifikat B1 exam:
+
+https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_B1_Wortliste.pdf
+
+For hands-free learning with random positioning and infinite looping, use the [BookTube](https://github.com/ivan-khvostishkov/booktube) app:
+
+TBD - will be updated after upload
+
+## Recommended Usage
+
+Open the BookTube app on your mobile device in Edge or Firefox browser. Listen through headphones while walking outdoors for optimal learning experience. The app includes a sleep timer (set to 60 minutes), can loop videos indefinitely, and scrolls to a random position every time you load the app.
+
+Check all German trainer videos on my YouTube channel:
+
+* German A1 (Start Deutsch 1): https://youtu.be/tSCrnPUt-pU
+* German A2: https://www.youtube.com/watch?v=esvhhEGLTNA
+* German B1 Part 1: TBD (this video)
+* German B1 Part 2: TBD
+* German B1 Part 3: TBD
+
+To create these videos, I developed a tool that automatically:
+1. Downloads official "Wortliste" PDFs from the Goethe Institut website
+2. Extracts text using [Amazon Textract](https://aws.amazon.com/textract/)
+3. Translates phrases from German to English with [Amazon Translate](https://aws.amazon.com/translate/)
+4. Generates narration using [Amazon Polly](https://aws.amazon.com/polly/)
+5. Creates videos with hardcoded subtitles using [FFmpeg](https://www.ffmpeg.org/)
+
+See the source code of the tool on my GitHub:
+
+https://github.com/ivan-khvostishkov/german-hands-free-trainer
+
+
+# German B1 Hands-Free Trainer - Part 2
+
+German B1 Hands-free Trainer (Part 2) narrates phrases from German B1 word list for the Goethe-Zertifikat B1 exam:
+
+https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_B1_Wortliste.pdf
+
+For hands-free learning with random positioning and infinite looping, use the [BookTube](https://github.com/ivan-khvostishkov/booktube) app:
+
+TBD - will be updated after upload
+
+## Recommended Usage
+
+Open the BookTube app on your mobile device in Edge or Firefox browser. Listen through headphones while walking outdoors for optimal learning experience. The app includes a sleep timer (set to 60 minutes), can loop videos indefinitely, and scrolls to a random position every time you load the app.
+
+Check all German trainer videos on my YouTube channel:
+
+* German A1 (Start Deutsch 1): https://youtu.be/tSCrnPUt-pU
+* German A2: https://www.youtube.com/watch?v=esvhhEGLTNA
+* German B1 Part 1: TBD
+* German B1 Part 2: TBD (this video)
+* German B1 Part 3: TBD
+
+To create these videos, I developed a tool that automatically:
+1. Downloads official "Wortliste" PDFs from the Goethe Institut website
+2. Extracts text using [Amazon Textract](https://aws.amazon.com/textract/)
+3. Translates phrases from German to English with [Amazon Translate](https://aws.amazon.com/translate/)
+4. Generates narration using [Amazon Polly](https://aws.amazon.com/polly/)
+5. Creates videos with hardcoded subtitles using [FFmpeg](https://www.ffmpeg.org/)
+
+See the source code of the tool on my GitHub:
+
+https://github.com/ivan-khvostishkov/german-hands-free-trainer
+
+
+# German B1 Hands-Free Trainer - Part 3
+
+German B1 Hands-free Trainer (Part 3) narrates phrases from German B1 word list for the Goethe-Zertifikat B1 exam:
+
+https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_B1_Wortliste.pdf
+
+For hands-free learning with random positioning and infinite looping, use the [BookTube](https://github.com/ivan-khvostishkov/booktube) app:
+
+TBD - will be updated after upload
+
+## Recommended Usage
+
+Open the BookTube app on your mobile device in Edge or Firefox browser. Listen through headphones while walking outdoors for optimal learning experience. The app includes a sleep timer (set to 60 minutes), can loop videos indefinitely, and scrolls to a random position every time you load the app.
+
+Check all German trainer videos on my YouTube channel:
+
+* German A1 (Start Deutsch 1): https://youtu.be/tSCrnPUt-pU
+* German A2: https://www.youtube.com/watch?v=esvhhEGLTNA
+* German B1 Part 1: TBD
+* German B1 Part 2: TBD
+* German B1 Part 3: TBD (this video)
+
+To create these videos, I developed a tool that automatically:
+1. Downloads official "Wortliste" PDFs from the Goethe Institut website
+2. Extracts text using [Amazon Textract](https://aws.amazon.com/textract/)
+3. Translates phrases from German to English with [Amazon Translate](https://aws.amazon.com/translate/)
+4. Generates narration using [Amazon Polly](https://aws.amazon.com/polly/)
+5. Creates videos with hardcoded subtitles using [FFmpeg](https://www.ffmpeg.org/)
+
+See the source code of the tool on my GitHub:
+
+https://github.com/ivan-khvostishkov/german-hands-free-trainer
