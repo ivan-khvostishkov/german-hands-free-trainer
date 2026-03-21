@@ -32,7 +32,7 @@ public class AssembleFinalVideos {
             System.out.println("Generating randomized file list for part " + (part + 1) + "...");
 
             int count = GenerateVideos.countNarratedFiles(part);
-            int totalPhrases = count / 3;
+            int totalPhrases = count / 9;
             System.out.println("Found " + count + " files for " + totalPhrases + " phrases (part " + (part + 1) + ")");
 
             // generate array of numbers from 1 to totalPhrases and randomize it
@@ -58,8 +58,7 @@ public class AssembleFinalVideos {
 
             try {
                 java.io.PrintWriter pw = new java.io.PrintWriter(fileList);
-                int limit = Math.min(1600, totalPhrases);
-                for (int i = 0; i < limit; i++) {
+                for (int i = 0; i < totalPhrases; i++) {
                     pw.println(String.format("file ./videos-part" + (part + 1) + "/" +
                             NarratePhrases.MP3_FILE_NAME_DE.replace(".mp3", ".mp4"), part + 1, randomized[i]));
                     pw.println(String.format("file ./videos-part" + (part + 1) + "/" +
