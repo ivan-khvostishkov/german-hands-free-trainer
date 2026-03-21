@@ -114,7 +114,7 @@ public class ParseTextractData {
                 .build()) {
 
             s3Client.putObject(PutObjectRequest.builder()
-                            .bucket(net.nosocial.germana2.DownloadWordList.BUCKET_NAME)
+                            .bucket(DownloadWordList.BUCKET_NAME)
                             .key(S3_PATH)
                             .build(),
                     RequestBody.fromFile(new File(OUTPUT_FILE)));
