@@ -4,6 +4,8 @@ German A1 Hands-free Trainer narrates phrases from German A1: Start Deutsch 1 wo
 
 https://www.goethe.de/de/spr/kup/prf/prf/sd1/inf.html
 
+Word list PDF: https://www.goethe.de/pro/relaunch/prf/de/A1_SD1_Wortliste_02.pdf
+
 For hands-free learning with random positioning and infinite looping, use the [BookTube](https://github.com/ivan-khvostishkov/booktube) app:
 
 https://booktube.nosocial.net/?v=tSCrnPUt-pU&sleep=60&loop=true&pos=random&edit=true
@@ -38,6 +40,8 @@ German A2 Hands-free Trainer narrates phrases from German A2 word list for the G
 
 https://www.goethe.de/de/spr/kup/prf/prf/sd1/inf.html
 
+Word list PDF: https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_A2_Wortliste.pdf
+
 For hands-free learning with random positioning and infinite looping, use the [BookTube](https://github.com/ivan-khvostishkov/booktube) app:
 
 https://booktube.nosocial.net/?v=esvhhEGLTNA&sleep=60&loop=true&pos=random&edit=true
@@ -70,7 +74,9 @@ https://github.com/ivan-khvostishkov/german-hands-free-trainer
 
 German B1 Hands-free Trainer (Part 1) narrates phrases from German B1 word list for the Goethe-Zertifikat B1 exam:
 
-https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_B1_Wortliste.pdf
+https://www.goethe.de/de/spr/kup/prf/prf/sd1/inf.html
+
+Word list PDF: https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_B1_Wortliste.pdf
 
 For hands-free learning with random positioning and infinite looping, use the [BookTube](https://github.com/ivan-khvostishkov/booktube) app:
 
@@ -104,7 +110,9 @@ https://github.com/ivan-khvostishkov/german-hands-free-trainer
 
 German B1 Hands-free Trainer (Part 2) narrates phrases from German B1 word list for the Goethe-Zertifikat B1 exam:
 
-https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_B1_Wortliste.pdf
+https://www.goethe.de/de/spr/kup/prf/prf/sd1/inf.html
+
+Word list PDF: https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_B1_Wortliste.pdf
 
 For hands-free learning with random positioning and infinite looping, use the [BookTube](https://github.com/ivan-khvostishkov/booktube) app:
 
@@ -138,7 +146,9 @@ https://github.com/ivan-khvostishkov/german-hands-free-trainer
 
 German B1 Hands-free Trainer (Part 3) narrates phrases from German B1 word list for the Goethe-Zertifikat B1 exam:
 
-https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_B1_Wortliste.pdf
+https://www.goethe.de/de/spr/kup/prf/prf/sd1/inf.html
+
+Word list PDF: https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_B1_Wortliste.pdf
 
 For hands-free learning with random positioning and infinite looping, use the [BookTube](https://github.com/ivan-khvostishkov/booktube) app:
 
