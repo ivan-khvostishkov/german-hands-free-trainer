@@ -100,7 +100,7 @@ public class GenerateVideos {
         @SuppressWarnings("SpellCheckingInspection")
         ProcessBuilder builder = new ProcessBuilder(
                 "ffmpeg", "-y", "-i", "./out/narrate-part" + (part + 1) + "/" + mp3FileName,
-                "-loop", "1", "-i", "./img/german-b1-trainer.png",
+                "-loop", "1", "-i", "./img/german-b1-trainer-part" + (part + 1) + ".png",
                 "-vf", "subtitles=./out/narrate-part" + (part + 1) + "/" + mp3FileName.replace(".mp3", ".srt") + ":force_style='FontName=Gratimo Classic'",
                 "-c:v", "libx264", "-tune", "stillimage", "-crf", "0", "-c:a", "copy", "-shortest",
                 partDir + "/" + mp4FileName
