@@ -90,7 +90,7 @@ public class GenerateVideos {
         ProcessBuilder builder = new ProcessBuilder(
                 "ffmpeg", "-y", "-i", "./out/narrate/" + mp3FileName,
                 "-loop", "1", "-i", "./img/german-a2-trainer.png",
-                "-vf", "subtitles=./out/narrate/" + mp3FileName.replace(".mp3", ".srt"),
+                "-vf", "subtitles=./out/narrate/" + mp3FileName.replace(".mp3", ".srt") + ":force_style='MaxLines=3,WrapStyle=2,MarginV=30'",
                 "-c:v", "libx264", "-tune", "stillimage", "-crf", "0", "-c:a", "copy", "-shortest",
                 "./out/videos/" + mp4FileName
         );
