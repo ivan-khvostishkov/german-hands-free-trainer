@@ -123,6 +123,13 @@ public class GenerateVideos {
         }
 
         String mp4FileName = mp3FileName.replace(".mp3", ".mp4");
+        String mp4FilePath = partDir + "/" + mp4FileName;
+        
+        if (new java.io.File(mp4FilePath).exists()) {
+            System.out.println("Skipping " + mp4FileName + " - already exists");
+            return;
+        }
+        
         System.out.println("Generating " + mp4FileName + " from " + mp3FileName);
 
         @SuppressWarnings("SpellCheckingInspection")
@@ -131,7 +138,7 @@ public class GenerateVideos {
                 "-loop", "1", "-i", "./img/german-b1-trainer-part" + (part + 1) + ".png",
                 "-vf", "subtitles=./out/narrate-part" + (part + 1) + "/" + mp3FileName.replace(".mp3", ".srt") + ":force_style='FontName=Gratimo Classic,MaxLines=3,WrapStyle=2,MarginV=30'",
                 "-c:v", "libx264", "-tune", "stillimage", "-crf", "0", "-c:a", "copy", "-shortest",
-                partDir + "/" + mp4FileName
+                mp4FilePath
         );
 
         if (!ProcessUtil.checkOutput(builder)) {
