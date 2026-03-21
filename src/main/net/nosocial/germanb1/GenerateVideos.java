@@ -11,6 +11,9 @@ import software.amazon.awssdk.services.s3.model.ListObjectsV2Response;
 import software.amazon.awssdk.services.s3.model.S3Object;
 
 import java.io.IOException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public class GenerateVideos {
     public static final String[] S3_PATHS = {
@@ -47,10 +50,35 @@ public class GenerateVideos {
             }
 
             System.out.println("Generating videos for part " + (part + 1) + "...");
+            
+            ExecutorService executor = Executors.newFixedThreadPool(12);
+            
             for (int i = 0; i < totalPhrases; i++) {
-                generateVideoWithSubtitles(String.format(NarratePhrases.MP3_FILE_NAME_DE, part + 1, i + 1), part);
-                generateVideoWithSubtitles(String.format(NarratePhrases.MP3_FILE_NAME_EN, part + 1, i + 1), part);
-                generateVideoWithSubtitles(String.format(NarratePhrases.MP3_FILE_NAME_DE_SLOW, part + 1, i + 1), part);
+                final int phraseIndex = i;
+                int finalPart = part;
+                executor.submit(() -> {
+                    try {
+                        generateVideoWithSubtitles(String.format(NarratePhrases.MP3_FILE_NAME_DE, finalPart + 1, phraseIndex + 1), finalPart);
+                        generateVideoWithSubtitles(String.format(NarratePhrases.MP3_FILE_NAME_EN, finalPart + 1, phraseIndex + 1), finalPart);
+                        generateVideoWithSubtitles(String.format(NarratePhrases.MP3_FILE_NAME_DE_SLOW, finalPart + 1, phraseIndex + 1), finalPart);
+                    } catch (IOException | InterruptedException e) {
+                        System.err.println("Error generating videos for phrase " + (phraseIndex + 1) + ": " + e.getMessage());
+                        throw new RuntimeException(e);
+                    }
+                });
+            }
+            
+            executor.shutdown();
+            try {
+                if (!executor.awaitTermination(60, TimeUnit.MINUTES)) {
+                    System.err.println("Video generation timed out for part " + (part + 1));
+                    executor.shutdownNow();
+                    return;
+                }
+            } catch (InterruptedException e) {
+                System.err.println("Video generation interrupted for part " + (part + 1));
+                executor.shutdownNow();
+                return;
             }
 
             System.out.println("Uploading videos to S3 for part " + (part + 1) + "...");

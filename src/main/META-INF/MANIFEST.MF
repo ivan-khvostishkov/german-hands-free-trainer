@@ -1,0 +1,126 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: aws-java-sdk-translate-1.12.505.jar aws-java-sdk-core-1.12.5
+ 05.jar commons-logging-1.1.3.jar commons-codec-1.15.jar httpclient-4.5.
+ 13.jar httpcore-4.4.13.jar ion-java-1.0.2.jar jackson-databind-2.12.7.1
+ .jar jackson-annotations-2.12.7.jar jackson-core-2.12.7.jar jackson-dat
+ aformat-cbor-2.12.6.jar joda-time-2.8.1.jar jmespath-java-1.12.505.jar 
+ s3-2.29.15.jar aws-xml-protocol-2.29.15.jar aws-query-protocol-2.29.15.
+ jar protocol-core-2.29.15.jar arns-2.29.15.jar profiles-2.29.15.jar crt
+ -core-2.29.15.jar http-auth-2.29.15.jar identity-spi-2.29.15.jar http-a
+ uth-spi-2.29.15.jar reactive-streams-1.0.4.jar http-auth-aws-2.29.15.ja
+ r checksums-2.29.15.jar checksums-spi-2.29.15.jar retries-spi-2.29.15.j
+ ar sdk-core-2.29.15.jar retries-2.29.15.jar slf4j-api-1.7.36.jar auth-2
+ .29.15.jar http-auth-aws-eventstream-2.29.15.jar eventstream-1.0.1.jar 
+ http-client-spi-2.29.15.jar regions-2.29.15.jar annotations-2.29.15.jar
+  utils-2.29.15.jar aws-core-2.29.15.jar metrics-spi-2.29.15.jar json-ut
+ ils-2.29.15.jar third-party-jackson-core-2.29.15.jar endpoints-spi-2.29
+ .15.jar apache-client-2.29.15.jar httpclient-4.5.13.jar commons-logging
+ -1.2.jar httpcore-4.4.16.jar commons-codec-1.17.1.jar netty-nio-client-
+ 2.29.15.jar netty-codec-http-4.1.115.Final.jar netty-codec-http2-4.1.11
+ 5.Final.jar netty-codec-4.1.115.Final.jar netty-transport-4.1.115.Final
+ .jar netty-common-4.1.115.Final.jar netty-buffer-4.1.115.Final.jar nett
+ y-handler-4.1.115.Final.jar netty-transport-native-unix-common-4.1.115.
+ Final.jar netty-transport-classes-epoll-4.1.115.Final.jar netty-resolve
+ r-4.1.115.Final.jar translate-2.21.29.jar aws-json-protocol-2.21.29.jar
+  third-party-jackson-core-2.21.29.jar protocol-core-2.21.29.jar http-au
+ th-aws-2.21.29.jar checksums-spi-2.21.29.jar checksums-2.21.29.jar sdk-
+ core-2.21.29.jar profiles-2.21.29.jar slf4j-api-1.7.30.jar reactive-str
+ eams-1.0.4.jar auth-2.21.29.jar eventstream-1.0.1.jar http-auth-spi-2.2
+ 1.29.jar http-auth-2.21.29.jar identity-spi-2.21.29.jar http-client-spi
+ -2.21.29.jar regions-2.21.29.jar annotations-2.21.29.jar utils-2.21.29.
+ jar aws-core-2.21.29.jar metrics-spi-2.21.29.jar json-utils-2.21.29.jar
+  endpoints-spi-2.21.29.jar apache-client-2.21.29.jar httpclient-4.5.13.
+ jar commons-logging-1.2.jar httpcore-4.4.13.jar commons-codec-1.15.jar 
+ netty-nio-client-2.21.29.jar netty-codec-http-4.1.100.Final.jar netty-c
+ odec-http2-4.1.100.Final.jar netty-codec-4.1.100.Final.jar netty-transp
+ ort-4.1.100.Final.jar netty-common-4.1.100.Final.jar netty-buffer-4.1.1
+ 00.Final.jar netty-handler-4.1.100.Final.jar netty-transport-native-uni
+ x-common-4.1.100.Final.jar netty-transport-classes-epoll-4.1.100.Final.
+ jar netty-resolver-4.1.100.Final.jar sso-2.29.15.jar protocol-core-2.29
+ .15.jar aws-json-protocol-2.29.15.jar third-party-jackson-core-2.29.15.
+ jar json-utils-2.29.15.jar profiles-2.29.15.jar http-auth-aws-2.29.15.j
+ ar checksums-spi-2.29.15.jar checksums-2.29.15.jar sdk-core-2.29.15.jar
+  retries-2.29.15.jar slf4j-api-1.7.36.jar reactive-streams-1.0.4.jar au
+ th-2.29.15.jar http-auth-aws-eventstream-2.29.15.jar eventstream-1.0.1.
+ jar http-auth-spi-2.29.15.jar http-auth-2.29.15.jar identity-spi-2.29.1
+ 5.jar http-client-spi-2.29.15.jar regions-2.29.15.jar annotations-2.29.
+ 15.jar utils-2.29.15.jar aws-core-2.29.15.jar metrics-spi-2.29.15.jar e
+ ndpoints-spi-2.29.15.jar retries-spi-2.29.15.jar apache-client-2.29.15.
+ jar httpclient-4.5.13.jar commons-logging-1.2.jar httpcore-4.4.16.jar c
+ ommons-codec-1.17.1.jar netty-nio-client-2.29.15.jar netty-codec-http-4
+ .1.115.Final.jar netty-codec-http2-4.1.115.Final.jar netty-codec-4.1.11
+ 5.Final.jar netty-transport-4.1.115.Final.jar netty-common-4.1.115.Fina
+ l.jar netty-buffer-4.1.115.Final.jar netty-handler-4.1.115.Final.jar ne
+ tty-transport-native-unix-common-4.1.115.Final.jar netty-transport-clas
+ ses-epoll-4.1.115.Final.jar netty-resolver-4.1.115.Final.jar textract-2
+ .29.15.jar protocol-core-2.29.15.jar aws-json-protocol-2.29.15.jar thir
+ d-party-jackson-core-2.29.15.jar http-auth-aws-2.29.15.jar checksums-sp
+ i-2.29.15.jar checksums-2.29.15.jar sdk-core-2.29.15.jar profiles-2.29.
+ 15.jar retries-2.29.15.jar slf4j-api-1.7.36.jar reactive-streams-1.0.4.
+ jar auth-2.29.15.jar http-auth-aws-eventstream-2.29.15.jar eventstream-
+ 1.0.1.jar http-auth-spi-2.29.15.jar http-auth-2.29.15.jar identity-spi-
+ 2.29.15.jar http-client-spi-2.29.15.jar regions-2.29.15.jar annotations
+ -2.29.15.jar utils-2.29.15.jar aws-core-2.29.15.jar metrics-spi-2.29.15
+ .jar json-utils-2.29.15.jar endpoints-spi-2.29.15.jar retries-spi-2.29.
+ 15.jar apache-client-2.29.15.jar httpclient-4.5.13.jar commons-logging-
+ 1.2.jar httpcore-4.4.16.jar commons-codec-1.17.1.jar netty-nio-client-2
+ .29.15.jar netty-codec-http-4.1.115.Final.jar netty-codec-http2-4.1.115
+ .Final.jar netty-codec-4.1.115.Final.jar netty-transport-4.1.115.Final.
+ jar netty-common-4.1.115.Final.jar netty-buffer-4.1.115.Final.jar netty
+ -handler-4.1.115.Final.jar netty-transport-native-unix-common-4.1.115.F
+ inal.jar netty-transport-classes-epoll-4.1.115.Final.jar netty-resolver
+ -4.1.115.Final.jar polly-2.29.15.jar aws-json-protocol-2.29.15.jar thir
+ d-party-jackson-core-2.29.15.jar protocol-core-2.29.15.jar profiles-2.2
+ 9.15.jar http-auth-aws-2.29.15.jar checksums-spi-2.29.15.jar checksums-
+ 2.29.15.jar sdk-core-2.29.15.jar retries-2.29.15.jar slf4j-api-1.7.36.j
+ ar reactive-streams-1.0.4.jar auth-2.29.15.jar http-auth-aws-eventstrea
+ m-2.29.15.jar eventstream-1.0.1.jar http-auth-spi-2.29.15.jar http-auth
+ -2.29.15.jar identity-spi-2.29.15.jar http-client-spi-2.29.15.jar regio
+ ns-2.29.15.jar annotations-2.29.15.jar utils-2.29.15.jar aws-core-2.29.
+ 15.jar metrics-spi-2.29.15.jar json-utils-2.29.15.jar endpoints-spi-2.2
+ 9.15.jar retries-spi-2.29.15.jar apache-client-2.29.15.jar httpclient-4
+ .5.13.jar commons-logging-1.2.jar httpcore-4.4.16.jar commons-codec-1.1
+ 7.1.jar netty-nio-client-2.29.15.jar netty-codec-http-4.1.115.Final.jar
+  netty-codec-http2-4.1.115.Final.jar netty-codec-4.1.115.Final.jar nett
+ y-transport-4.1.115.Final.jar netty-common-4.1.115.Final.jar netty-buff
+ er-4.1.115.Final.jar netty-handler-4.1.115.Final.jar netty-transport-na
+ tive-unix-common-4.1.115.Final.jar netty-transport-classes-epoll-4.1.11
+ 5.Final.jar netty-resolver-4.1.115.Final.jar json-20230618.jar slf4j-si
+ mple-1.7.36.jar slf4j-api-1.7.36.jar aws-java-sdk-polly-1.12.505.jar aw
+ s-java-sdk-core-1.12.505.jar commons-logging-1.1.3.jar commons-codec-1.
+ 15.jar httpclient-4.5.13.jar httpcore-4.4.13.jar ion-java-1.0.2.jar jac
+ kson-databind-2.12.7.1.jar jackson-annotations-2.12.7.jar jackson-core-
+ 2.12.7.jar jackson-dataformat-cbor-2.12.6.jar joda-time-2.8.1.jar jmesp
+ ath-java-1.12.505.jar ssooidc-2.29.15.jar protocol-core-2.29.15.jar aws
+ -json-protocol-2.29.15.jar json-utils-2.29.15.jar third-party-jackson-c
+ ore-2.29.15.jar profiles-2.29.15.jar http-auth-aws-2.29.15.jar checksum
+ s-spi-2.29.15.jar checksums-2.29.15.jar sdk-core-2.29.15.jar retries-2.
+ 29.15.jar slf4j-api-1.7.36.jar reactive-streams-1.0.4.jar auth-2.29.15.
+ jar http-auth-aws-eventstream-2.29.15.jar eventstream-1.0.1.jar http-au
+ th-spi-2.29.15.jar http-auth-2.29.15.jar identity-spi-2.29.15.jar http-
+ client-spi-2.29.15.jar regions-2.29.15.jar annotations-2.29.15.jar util
+ s-2.29.15.jar aws-core-2.29.15.jar metrics-spi-2.29.15.jar endpoints-sp
+ i-2.29.15.jar retries-spi-2.29.15.jar apache-client-2.29.15.jar httpcli
+ ent-4.5.13.jar commons-logging-1.2.jar httpcore-4.4.16.jar commons-code
+ c-1.17.1.jar netty-nio-client-2.29.15.jar netty-codec-http-4.1.115.Fina
+ l.jar netty-codec-http2-4.1.115.Final.jar netty-codec-4.1.115.Final.jar
+  netty-transport-4.1.115.Final.jar netty-common-4.1.115.Final.jar netty
+ -buffer-4.1.115.Final.jar netty-handler-4.1.115.Final.jar netty-transpo
+ rt-native-unix-common-4.1.115.Final.jar netty-transport-classes-epoll-4
+ .1.115.Final.jar netty-resolver-4.1.115.Final.jar aws-java-sdk-textract
+ -1.12.505.jar aws-java-sdk-core-1.12.505.jar commons-logging-1.1.3.jar 
+ commons-codec-1.15.jar httpclient-4.5.13.jar httpcore-4.4.13.jar ion-ja
+ va-1.0.2.jar jackson-databind-2.12.7.1.jar jackson-dataformat-cbor-2.12
+ .6.jar jackson-core-2.12.6.jar joda-time-2.8.1.jar jmespath-java-1.12.5
+ 05.jar aws-java-sdk-s3-1.12.505.jar aws-java-sdk-kms-1.12.505.jar aws-j
+ ava-sdk-core-1.12.505.jar commons-logging-1.1.3.jar commons-codec-1.15.
+ jar httpclient-4.5.13.jar httpcore-4.4.13.jar ion-java-1.0.2.jar jackso
+ n-databind-2.12.7.1.jar jackson-dataformat-cbor-2.12.6.jar jackson-core
+ -2.12.6.jar joda-time-2.8.1.jar jmespath-java-1.12.505.jar aws-java-sdk
+ -sts-1.12.505.jar aws-java-sdk-core-1.12.505.jar commons-logging-1.1.3.
+ jar commons-codec-1.15.jar httpclient-4.5.13.jar httpcore-4.4.13.jar io
+ n-java-1.0.2.jar jackson-databind-2.12.7.1.jar jackson-annotations-2.12
+ .7.jar jackson-core-2.12.7.jar jackson-dataformat-cbor-2.12.6.jar joda-
+ time-2.8.1.jar jmespath-java-1.12.505.jar
+
