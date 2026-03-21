@@ -2,7 +2,7 @@
 
 A tool that creates narrated German language training videos from official Goethe-Zertifikat exam materials for A1, A2, and B1 levels.
 
-## 🎯 **[📚 Grammar Cheat Sheets](GrammarCheatSheets.md)**
+## 🎯 **[📚 Grammar Cheat Sheets](GrammarCheatSheets.pdf)**
 Essential German grammar reference tables for articles, pronouns, and noun declensions.
 
 ## How It Works
