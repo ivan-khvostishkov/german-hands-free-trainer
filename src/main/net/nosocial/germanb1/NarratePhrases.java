@@ -11,6 +11,8 @@ import software.amazon.awssdk.services.polly.PollyClient;
 import software.amazon.awssdk.services.polly.model.*;
 import software.amazon.awssdk.services.s3.S3Client;
 import software.amazon.awssdk.services.s3.model.GetObjectRequest;
+import software.amazon.awssdk.services.s3.model.HeadObjectRequest;
+import software.amazon.awssdk.services.s3.model.NoSuchKeyException;
 
 import java.io.*;
 import java.time.LocalTime;
@@ -32,6 +34,18 @@ public class NarratePhrases {
     public static final S3Client s3Client = S3Client.builder()
             .region(Region.EU_WEST_1)
             .build();
+
+    private static boolean fileExistsInS3(String s3Path) {
+        try {
+            s3Client.headObject(HeadObjectRequest.builder()
+                    .bucket(DownloadWordList.BUCKET_NAME)
+                    .key(s3Path)
+                    .build());
+            return true;
+        } catch (NoSuchKeyException e) {
+            return false;
+        }
+    }
 
     private static void narrate(PollyClient polly, Voice voice, String phraseSSML, String fileName, String phrase) throws IOException {
         synthesizeAudio(polly, voice, phraseSSML, fileName);
@@ -183,6 +197,15 @@ public class NarratePhrases {
             }
 
             for (int i = 0; i < germanPhrases.length; i++) {
+                String germanFileName = NARRATE_PATHS[part] + String.format(MP3_FILE_NAME_DE, part + 1, i + 1);
+                String germanSlowFileName = NARRATE_PATHS[part] + String.format(MP3_FILE_NAME_DE_SLOW, part + 1, i + 1);
+                String englishFileName = NARRATE_PATHS[part] + String.format(MP3_FILE_NAME_EN, part + 1, i + 1);
+
+                if (fileExistsInS3(germanFileName) && fileExistsInS3(germanSlowFileName) && fileExistsInS3(englishFileName)) {
+                    System.out.println("Skipping phrase " + (i + 1) + " of " + germanPhrases.length + " (part " + (part + 1) + ") - already processed");
+                    continue;
+                }
+
                 System.out.println("Narrating phrase " + (i + 1) + " of " + germanPhrases.length + " (part " + (part + 1) + ")");
 
                 String germanPhraseSSML = "<speak><mark name=\"sub_start\"/><prosody rate=\"medium\">\n"
@@ -200,13 +223,8 @@ public class NarratePhrases {
                         + "\n<break time=\"5s\"/>\n"
                         + "</prosody><mark name=\"sub_end\"/></speak>";
 
-                String germanFileName = NARRATE_PATHS[part] + String.format(MP3_FILE_NAME_DE, part + 1, i + 1);
                 narrate(polly, germanVoice, germanPhraseSSML, germanFileName, germanPhrases[i]);
-
-                String germanSlowFileName = NARRATE_PATHS[part] + String.format(MP3_FILE_NAME_DE_SLOW, part + 1, i + 1);
                 narrate(polly, germanVoice, germanPhraseSlowSSML, germanSlowFileName, germanPhrases[i]);
-
-                String englishFileName = NARRATE_PATHS[part] + String.format(MP3_FILE_NAME_EN, part + 1, i + 1);
                 narrate(polly, englishVoice, englishPhraseSSML, englishFileName, englishPhrases[i]);
             }
         }
