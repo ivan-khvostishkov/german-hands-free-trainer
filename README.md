@@ -18,9 +18,9 @@ The trainer automatically:
 
 Use the [BookTube](https://github.com/ivan-khvostishkov/booktube) app for hands-free learning with random positioning and infinite looping:
 
-* **German A1**: https://booktube.nosocial.net/?v=tSCrnPUt-pU&sleep=20&loop=true&pos=random&edit=true
-* **German A2**: https://booktube.nosocial.net/?v=esvhhEGLTNA&sleep=20&loop=true&pos=random&edit=true
-* **German B1**: TBD
+* **German A1**: https://booktube.nosocial.net/?v=tSCrnPUt-pU&sleep=60&loop=true&pos=random&edit=true&title=German+A1+Trainer
+* **German A2**: https://booktube.nosocial.net/?v=esvhhEGLTNA&sleep=60&loop=true&pos=random&edit=true&title=German+A2+Trainer
+* **German B1**: https://booktube.nosocial.net/?v=wNoTY_TZvqI+UBcIZf76mIs+JYDI_HhWIgs&sleep=60&loop=true&pos=random&title=German+B1+Hands-Free+Audio+Trainer&edit=true
 
 ## Recommended Usage
 
