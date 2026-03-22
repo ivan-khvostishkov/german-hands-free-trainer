@@ -2,9 +2,6 @@
 
 A tool that creates narrated German language training videos from official Goethe-Zertifikat exam materials for A1, A2, and B1 levels.
 
-## 🎯 **[📚 Grammar Cheat Sheets](GrammarCheatSheets.pdf)**
-Essential German grammar reference tables for articles, pronouns, and noun declensions.
-
 ## How It Works
 
 The trainer automatically:
@@ -25,6 +22,10 @@ Use the [BookTube](https://github.com/ivan-khvostishkov/booktube) app for hands-
 ## Recommended Usage
 
 Open the BookTube app on your mobile device in Edge or Firefox browser. Listen through headphones while walking outdoors for optimal learning experience.
+
+## 🎯 **[📚 Bonus: Grammar Cheat Sheets](GrammarCheatSheets.pdf)**
+Essential German grammar reference tables for articles, pronouns, and noun declensions.
+
 
 ---
 
