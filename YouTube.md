@@ -18,9 +18,9 @@ Check all German trainer videos on my YouTube channel:
 
 * German A1 (Start Deutsch 1): https://youtu.be/tSCrnPUt-pU (this video)
 * German A2: https://www.youtube.com/watch?v=esvhhEGLTNA
-* German B1 Part 1: TBD
-* German B1 Part 2: TBD  
-* German B1 Part 3: TBD
+* German B1 Part 1: https://www.youtube.com/watch?v=wNoTY_TZvqI
+* German B1 Part 2: https://www.youtube.com/watch?v=UBcIZf76mIs
+* German B1 Part 3: https://www.youtube.com/watch?v=JYDI_HhWIgs
 
 To create these videos, I developed a tool that automatically:
 1. Downloads official "Wortliste" PDFs from the Goethe Institut website
@@ -54,9 +54,9 @@ Check all German trainer videos on my YouTube channel:
 
 * German A1 (Start Deutsch 1): https://youtu.be/tSCrnPUt-pU
 * German A2: https://www.youtube.com/watch?v=esvhhEGLTNA (this video)
-* German B1 Part 1: TBD
-* German B1 Part 2: TBD
-* German B1 Part 3: TBD
+* German B1 Part 1: https://www.youtube.com/watch?v=wNoTY_TZvqI
+* German B1 Part 2: https://www.youtube.com/watch?v=UBcIZf76mIs
+* German B1 Part 3: https://www.youtube.com/watch?v=JYDI_HhWIgs
 
 To create these videos, I developed a tool that automatically:
 1. Downloads official "Wortliste" PDFs from the Goethe Institut website
@@ -80,7 +80,7 @@ Word list PDF: https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_B1_Wo
 
 For hands-free learning with random positioning and infinite looping, use the [BookTube](https://github.com/ivan-khvostishkov/booktube) app:
 
-TBD - will be updated after upload
+https://booktube.nosocial.net/?v=wNoTY_TZvqI+UBcIZf76mIs+JYDI_HhWIgs&sleep=60&loop=true&pos=random&title=German+B1+Hands-Free+Audio+Trainer&edit=true
 
 ## Recommended Usage
 
@@ -90,9 +90,9 @@ Check all German trainer videos on my YouTube channel:
 
 * German A1 (Start Deutsch 1): https://youtu.be/tSCrnPUt-pU
 * German A2: https://www.youtube.com/watch?v=esvhhEGLTNA
-* German B1 Part 1: TBD (this video)
-* German B1 Part 2: TBD
-* German B1 Part 3: TBD
+* German B1 Part 1: https://www.youtube.com/watch?v=wNoTY_TZvqI (this video)
+* German B1 Part 2: https://www.youtube.com/watch?v=UBcIZf76mIs
+* German B1 Part 3: https://www.youtube.com/watch?v=JYDI_HhWIgs
 
 To create these videos, I developed a tool that automatically:
 1. Downloads official "Wortliste" PDFs from the Goethe Institut website
@@ -116,7 +116,7 @@ Word list PDF: https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_B1_Wo
 
 For hands-free learning with random positioning and infinite looping, use the [BookTube](https://github.com/ivan-khvostishkov/booktube) app:
 
-TBD - will be updated after upload
+https://booktube.nosocial.net/?v=wNoTY_TZvqI+UBcIZf76mIs+JYDI_HhWIgs&sleep=60&loop=true&pos=random&title=German+B1+Hands-Free+Audio+Trainer&edit=true
 
 ## Recommended Usage
 
@@ -126,9 +126,9 @@ Check all German trainer videos on my YouTube channel:
 
 * German A1 (Start Deutsch 1): https://youtu.be/tSCrnPUt-pU
 * German A2: https://www.youtube.com/watch?v=esvhhEGLTNA
-* German B1 Part 1: TBD
-* German B1 Part 2: TBD (this video)
-* German B1 Part 3: TBD
+* German B1 Part 1: https://www.youtube.com/watch?v=wNoTY_TZvqI 
+* German B1 Part 2: https://www.youtube.com/watch?v=UBcIZf76mIs (this video)
+* German B1 Part 3: https://www.youtube.com/watch?v=JYDI_HhWIgs
 
 To create these videos, I developed a tool that automatically:
 1. Downloads official "Wortliste" PDFs from the Goethe Institut website
@@ -152,7 +152,7 @@ Word list PDF: https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_B1_Wo
 
 For hands-free learning with random positioning and infinite looping, use the [BookTube](https://github.com/ivan-khvostishkov/booktube) app:
 
-TBD - will be updated after upload
+https://booktube.nosocial.net/?v=wNoTY_TZvqI+UBcIZf76mIs+JYDI_HhWIgs&sleep=60&loop=true&pos=random&title=German+B1+Hands-Free+Audio+Trainer&edit=true
 
 ## Recommended Usage
 
@@ -162,9 +162,9 @@ Check all German trainer videos on my YouTube channel:
 
 * German A1 (Start Deutsch 1): https://youtu.be/tSCrnPUt-pU
 * German A2: https://www.youtube.com/watch?v=esvhhEGLTNA
-* German B1 Part 1: TBD
-* German B1 Part 2: TBD
-* German B1 Part 3: TBD (this video)
+* German B1 Part 1: https://www.youtube.com/watch?v=wNoTY_TZvqI 
+* German B1 Part 2: https://www.youtube.com/watch?v=UBcIZf76mIs
+* German B1 Part 3: https://www.youtube.com/watch?v=JYDI_HhWIgs (this video)
 
 To create these videos, I developed a tool that automatically:
 1. Downloads official "Wortliste" PDFs from the Goethe Institut website
